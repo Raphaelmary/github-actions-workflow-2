@@ -1,0 +1,10 @@
+name: Github Context Object
+on: workflow_dispatch
+jobs:
+  output:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Github Context
+        run: echo "{{ toJSON(github) }}"
+      - name: Final Statement
+        run: echo " google github context objects..."
