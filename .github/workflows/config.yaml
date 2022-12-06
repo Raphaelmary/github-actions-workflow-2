@@ -1,5 +1,5 @@
 name: Github Actions Configuration
-on: [push,workflow_dispatch]
+on: [push, workflow_dispatch]
 jobs:
   configuration:
     runs-on: ubuntu-latest
